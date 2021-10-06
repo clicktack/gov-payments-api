@@ -84,18 +84,20 @@
 
 ##### Description of the fields of a file
 
-| Field name | Type  | Description |
-| ------------- | ------------- |
-| id | String  | A unique auto-generated ID for each response |
-| md5 | String  | Calculated MD5 value of the file |
-| label | String  | Original file name |
-| createdDate | Date  | Date of creation of the response |
-| data | Array  | An array that contains the payments according to each number of symbol that appeared in the file |
+
+| Field name | Type | Description |
+| ------------- | ------------- | ------------- | 
+| id | String | A unique auto-generated ID for each response |
+| md5 | String | Calculated MD5 value of the file |
+| label | String | Original file name |
+| createdDate | Date | Date of creation of the response |
+| data | Array | An array that contains the payments according to each number of symbol that appeared in the file |
 
 ##### Description of the fields of a symbol
 
+
 | Field name | Type  | Description |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | 
 | createdDate | Date  | Production date that appears at the top of the page. Described as:  |תאריך הפקה
 | periodMonth | Number  | Number of the month of report period. Appears in the page title |
 | periodYear | Number  | Number of the year of report period. Appears in the page title |
@@ -114,8 +116,9 @@
 
 ##### Description of the fields of a payment
 
+
 | Field name | Type  | Description |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | 
 | totalParticipation | Decimal  | Total participation. Described as:  |סהכ השתתפות
 | plusHourParticipationInclPayback | Decimal  | Total government includes payback for  extra hour. Described as:  |השתתפות המשרד כולל החזר - השתתפות בשעה נוספת
 | tuitionParticipationInclPayback | Decimal  | Total government includes payback for  tuition Described as:  |השתתפות המשרד כולל החזר - השתתפות בשכר לימוד
@@ -140,15 +143,18 @@
 
 ##### Description of the fields of a retro
 
+
 | Field name | Type  | Description |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | 
+
 | date | Date  | Retro start date. Described as:  |רטרו
 | months | Array  | An array that contains the months |
 
 ##### Description of the fields of a retro month
 
+
 | Field name | Type  | Description |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | 
 | level | Number  | The level of the child |
 | month | Number  | The number of month |
 | hasPlusHour | Date  | A value that indicates whether there is a level for an extra hour |
