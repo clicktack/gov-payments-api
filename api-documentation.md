@@ -98,20 +98,20 @@
 
 | Field name | Type  | Description |
 | ------------- | ------------- | ------------- | 
-| createdDate | Date  | Production date that appears at the top of the page. Described as:  |תאריך הפקה
+| createdDate | Date  | Production date that appears at the top of the page. Described as: &rlm;תאריך הפקה&rlm; |
 | periodMonth | Number  | Number of the month of report period. Appears in the page title |
 | periodYear | Number  | Number of the year of report period. Appears in the page title |
-| paymentNumber | Number  | Payment number. Appears in the page title. Described as:  |מספר תשלום
-| groupNumber | Number  | Group number. Described as:  |קבוצה
-| groupName | String  | Group name. Described as:  |קבוצה
-| districtNumber | Number  |  District number. Described as:  |מחוז
-| districtName | String  |  District name. Described as:  |מחוז
-| organizationNumber | Number  | Organization number. Described as:  |ארגון
-| organizationName | String  | Organization name. Described as:  |ארגון
-| cityNumber | Number  | City number. Described as:  |יישוב
-| cityName | String  | City name. Described as:  |יישוב
-| dayCareNumber | Number  | Day care number. Described as:  |מעון
-| dayCareName | String  | Day care name. Described as:  |מעון
+| paymentNumber | Number  | Payment number. Appears in the page title. Described as:  מספר תשלום
+| groupNumber | Number  | Group number. Described as:  קבוצה
+| groupName | String  | Group name. Described as:  קבוצה
+| districtNumber | Number  |  District number. Described as:  מחוז
+| districtName | String  |  District name. Described as:  מחוז
+| organizationNumber | Number  | Organization number. Described as: ארגון
+| organizationName | String  | Organization name. Described as: ארגון
+| cityNumber | Number  | City number. Described as: יישוב
+| cityName | String  | City name. Described as: יישוב
+| dayCareNumber | Number  | Day care number. Described as: מעון
+| dayCareName | String  | Day care name. Described as: מעון
 | records | Array  | An array that contains the payments |
 
 ##### Description of the fields of a payment
@@ -120,34 +120,32 @@
 | Field name | Type  | Description |
 | ------------- | ------------- | ------------- | 
 | totalParticipation | Decimal  | Total participation. Described as:  |סהכ השתתפות
-| plusHourParticipationInclPayback | Decimal  | Total government includes payback for  extra hour. Described as:  |השתתפות המשרד כולל החזר - השתתפות בשעה נוספת
-| tuitionParticipationInclPayback | Decimal  | Total government includes payback for  tuition Described as:  |השתתפות המשרד כולל החזר - השתתפות בשכר לימוד
-| plusHourParticipationExclPayback | Decimal  | Total government excludes payback for  extra hour. Described as:  |השתתפות המשרד לא כולל החזר - השתתפות בשעה נוספת
-| tuitionParticipationExclPayback | Decimal  | Total government excludes payback for  tuition Described as:  |השתתפות המשרד לא כולל החזר - השתתפות בשכר לימוד
-| totalParent | Decimal  | Parents payment. Described as:  |תשלום הורים
-| totalTuition | Decimal  | tuition payment. Described as:  |תשלום שכר לימוד
-| forcedLevel | Bool  | Forced level. When the symbol * appears next to the level. Described as:  |דרגת כפייה
-| left | Bool  | Forced level. When the symbol # appears without a level. Described as:  |עבר למעון אחר
-| entered | Bool  | Forced level. When the symbol # appears next to the level. Described as:  |עבר ממעון אחר
+| plusHourParticipationInclPayback | Decimal  | Total government includes payback for  extra hour. Described as: השתתפות המשרד כולל החזר - השתתפות בשעה נוספת
+| tuitionParticipationInclPayback | Decimal  | Total government includes payback for  tuition Described as: השתתפות המשרד כולל החזר - השתתפות בשכר לימוד
+| plusHourParticipationExclPayback | Decimal  | Total government excludes payback for  extra hour. Described as: השתתפות המשרד לא כולל החזר - השתתפות בשעה נוספת
+| tuitionParticipationExclPayback | Decimal  | Total government excludes payback for  tuition Described as: השתתפות המשרד לא כולל החזר - השתתפות בשכר לימוד
+| totalParent | Decimal  | Parents payment. Described as: תשלום הורים
+| totalTuition | Decimal  | tuition payment. Described as: תשלום שכר לימוד
+| forcedLevel | Bool  | Forced level. When the symbol * appears next to the level. Described as: דרגת כפייה
+| left | Bool  | Forced level. When the symbol # appears without a level. Described as: עבר למעון אחר
+| entered | Bool  | Forced level. When the symbol # appears next to the level. Described as: עבר ממעון אחר
 | level | Number  | The level of the child |
 | hasLevel | Bool  | A value that indicates whether a level appears for the child |
 | childId | String  | The Id of the child |
 | motherName | String  | The mother name |
-| registrationDate | Date  | Date of entry to the day care. Described as:  |תאריך כניסה למעון
+| registrationDate | Date  | Date of entry to the day care. Described as: תאריך כניסה למעון
 | birthday | Date  | The birthday date of the child |
 | firstName | String  | The first name of the child |
 | lastName | String  | The last name of the child |
-| isBaby | Bool  | A value indicating whether the child is a baby. Described as:  |תעריף תינוק
+| isBaby | Bool  | A value indicating whether the child is a baby. Described as: תעריף תינוק
 | retro | Array  | An array that contains the retro months |
-| isOverLimit | Bool  | A value indicating whether the child is above the quota of the daycare limit. Described as:  |ילדים מעל מכסה
+| isOverLimit | Bool  | A value indicating whether the child is above the quota of the daycare limit. Described as: ילדים מעל מכסה
 
 ##### Description of the fields of a retro
 
-
-| Field name | Type  | Description |
+| Field name | Type | Description |
 | ------------- | ------------- | ------------- | 
-
-| date | Date  | Retro start date. Described as:  |רטרו
+| date | Date  | Retro start date. Described as: רטרו
 | months | Array  | An array that contains the months |
 
 ##### Description of the fields of a retro month
